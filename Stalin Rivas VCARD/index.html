@@ -5,10 +5,17 @@
   <title>Contacto</title>
 
   <script>
-    window.location.href = "stalin_rivas.vcf";
+    window.onload = function() {
+      window.location.href = "stalin_rivas.vcf";
+    };
   </script>
 
 </head>
 <body>
+  <a id="download" href="stalin_rivas.vcf">Descargar contacto</a>
+
+  <script>
+    document.getElementById("download").click();
+  </script>
 </body>
 </html>
